@@ -25,5 +25,4 @@ public class Slash {
         System.out.println("Draw by 5");
         draw(5);
     }
-
 }
