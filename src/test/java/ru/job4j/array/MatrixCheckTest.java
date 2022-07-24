@@ -20,7 +20,7 @@ public class MatrixCheckTest {
     public void whenHasMonoNotHorizontal() {
         char[][] input = {
                 {' ', ' ', ' '},
-                {' ', ' ', ' '},
+                {'X', 'X', ' '},
                 {' ', ' ', ' '},
         };
         int row = 1;
