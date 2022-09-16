@@ -41,4 +41,13 @@ public class PointTest {
         double out = first.distance(second);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void when230to451then3() {
+        Point first = new Point(2, 3, 0);
+        Point second = new Point(4, 5, 1);
+        double expected = 3;
+        double out = first.distance3d(second);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
